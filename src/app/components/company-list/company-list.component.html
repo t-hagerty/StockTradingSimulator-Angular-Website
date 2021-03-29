@@ -1,0 +1,6 @@
+<app-search (search)="getSearchResults($event)"></app-search>
+<app-company
+*ngFor="let company of companies"
+[company]="company"
+>
+</app-company>
